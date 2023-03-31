@@ -21,7 +21,7 @@
     padding: 12px 0;
     border-radius: 10px;
     box-shadow: $dp8;
-    background-color: #fff;
+    background-color: $background;
 }
 @supports (transform: scale3d(0, 0, 0)) {
     .popup-menu {

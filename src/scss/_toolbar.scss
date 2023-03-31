@@ -5,6 +5,8 @@
     align-items: stretch;
     padding: 0 12px;
     outline: 1px solid $gray2;
+    background: $background;
+    color: $color;
     button {
         font-size: 16px;
         line-height: 24px;
@@ -12,5 +14,6 @@
         border: none;
         cursor: pointer;
         padding: 12px;
+        color: $color;
     }
 }

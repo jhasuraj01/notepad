@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "webpack --watch",
-    "build": "webpack"
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --watch",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && webpack"
   },
   "repository": {
     "type": "git",
